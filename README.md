@@ -12,7 +12,7 @@ Growing up I used to love watching SpongeBob on TV. The contrast between the dif
 - Google Cloud Natural Language API
 
 ## The Results
-![squidward sentiment time series graph](images/squidward_sentiment_graph.png)
+![squidward sentiment time series graph](images/squidward_chart_edited.png)
 
 ## What I Learned
 
