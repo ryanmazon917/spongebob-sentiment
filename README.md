@@ -13,6 +13,8 @@ Growing up I used to love watching SpongeBob on TV. The contrast between the dif
 
 ## The Results
 
+
 ## What I Learned
+
 
 ## Future Implementations
