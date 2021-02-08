@@ -20,7 +20,22 @@ If we take a look at the distribution through the lens of a linear regression mo
 
 ![regression fit of data](images/squid_regression.png)
 
-Now, is this upward trend significant, or is it likely due to some random noise?
+Now, is this upward trend significant, or is it likely due to some random noise? Let's perform an Augmented Dickey-Fuller test on this time series to find out.
+
+    from statsmodels.tsa.stattools import adfuller
+    result = adfuller(X)
+    print('ADF Statistic: %f' % result[0])
+    print('p-value: %f' % result[1])
+    print('Critical Values: ')
+    for key, value in result[4].items():
+        print('\t%s: %.3f' % (key, value))
+        
+ADF Statistic: -12.439276
+p-value: 0.000000
+Critical Values: 
+	1%: -3.466
+	5%: -2.877
+	10%: -2.575
 
 ## What I Learned :books:
 
