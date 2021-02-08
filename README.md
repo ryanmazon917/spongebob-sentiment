@@ -30,12 +30,14 @@ Now, is this upward trend significant, or is it likely due to some random noise?
     for key, value in result[4].items():
         print('\t%s: %.3f' % (key, value))
         
-ADF Statistic: -12.439276
-p-value: 0.000000
+ADF Statistic: -12.439276, 
+p-value: 0.000000, 
 Critical Values: 
-	1%: -3.466
-	5%: -2.877
+	1%: -3.466, 
+	5%: -2.877, 
 	10%: -2.575
+	
+Clearly, the p-statistic is low enough in this case to reject the null hypothesis. The upward change in sentiment over the course of the series is statistically significant, and we can therefore say that Squidward became less negative as the show progressed.
 
 ## What I Learned :books:
 
