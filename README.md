@@ -12,6 +12,7 @@ Growing up I used to love watching SpongeBob on TV. The contrast between the dif
 - Google Cloud Natural Language API
 
 ## The Results
+I compiled a list of everything Squidward said in each episode of the TV series. I ran the data through a sentiment analysis model and computed an average score for each episode. There are about 300 total episodes, and because they are chronological, we are looking at a time series plot. Also included in the figure are the 10-day and 20-day simple moving averages.
 ![squidward sentiment time series graph](images/squidward_chart_edited.jpg)
 
 ## What I Learned
