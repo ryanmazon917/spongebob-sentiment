@@ -13,9 +13,19 @@ Growing up I used to love watching SpongeBob on TV. The contrast between the dif
 
 ## The Results
 I compiled a list of everything Squidward said in each episode of the TV series. I ran the data through a sentiment analysis model and computed an average score for each episode. There are about 300 total episodes, and because they are chronological, we are looking at a time series plot. Also included in the figure are the 10-day and 20-day simple moving averages.
+
 ![squidward sentiment time series graph](images/squidward_chart_edited.jpg)
+
+If we take a look at the distribution through the lens of a linear regression model, we can see that there is a very slight upward trend in the data.
+
+![regression fit of data](images/squid_regression.png)
+
+Now, is this upward trend significant, or is it likely due to some random noise?
 
 ## What I Learned
 
+I was able to continue practicing my data processing skills and become more familiar with various text preprocessing techniques for NLP machine learning models. I also had the opportunity to strengthen my understanding of time series analysis, where I was able to apply some of the techniques I learned in class.
 
 ## Future Implementations
+
+In the future, I hope to add sentiment analysis models for more characters so that we have a better point of comparison. I also am planning on designing and creating a chatbot that will have the personality of Squidward, by training the model using Squidward's dialogue.
